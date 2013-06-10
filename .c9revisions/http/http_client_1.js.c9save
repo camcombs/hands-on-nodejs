@@ -1,0 +1,3 @@
+{"ts":1368832317987,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1368832481196,"patch":[[{"diffs":[[1,"var http = require(\"http\");\n\nvar options = {\n        host:\"www.google.com\",\n        port: 80,\n        path: '/index.html'\n};\n\nhttp.get(options, function(res) {\n    console.log('got response: ' + res.statusCode);\n        \n}).on('error'), function(err) {\n   console.log('got error' + err.message)     \n});"]],"start1":0,"start2":0,"length1":0,"length2":303}]],"length":303,"saved":false}
+{"ts":1368832562597,"patch":[[{"diffs":[[0,"('error'"],[-1,")"],[0,", functi"]],"start1":226,"start2":226,"length1":17,"length2":16}]],"length":302,"saved":false}
